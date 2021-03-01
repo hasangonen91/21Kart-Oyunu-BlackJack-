@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/activity_main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/tv_oyuncu1"
+        android:layout_width="363dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="0dp"
+        android:clickable="true"
+        android:text=" OYUNCU: "
+        android:textColor="#000000"
+        android:textSize="34dp" />
+
+    <include
+        layout="@layout/images"
+        android:layout_width="wrap_content"
+        android:layout_height="607dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="109dp"
+        android:layout_marginBottom="0dp" />
+
+    <TextView
+        android:id="@+id/tv_Süre"
+        android:layout_width="362dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="54dp"
+        android:clickable="true"
+        android:text=" SÜRE : "
+        android:textColor="#000000"
+        android:textSize="34dp" />
+
+</RelativeLayout>

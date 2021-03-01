@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name" translatable="false">PauloPuu</string>
+    <string name="ayarlar">ayarlar</string>
+    <string name="yardım" >yardım</string>
+    <string name="hakkında" >hakkında</string>
+
+
+
+</resources>

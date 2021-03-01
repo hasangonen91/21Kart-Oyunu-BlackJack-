@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/ayarlar"
+        android:title="@string/ayarlar"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/yardım"
+        android:title="@string/yardım"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/hakkında"
+        android:title="@string/hakkında"
+        app:showAsAction="never"/>
+
+</menu>
